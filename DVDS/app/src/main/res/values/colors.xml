@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#292b3d</color>
+    <color name="graylight">#fafafa</color>
+    <color name="startblue">#09c6df</color>
+    <color name="endblue">#0bcce6</color>
+
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="abc">#fffafb</color>
+    <color name="abc1">#87CEFA</color>
+    <color name="abc3">#0000ff</color>
+    <color name="abc2">#ff0000</color>
+    <color name="abc4">#676</color>
+</resources>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserDTW"
+    android:background="@drawable/bb">
+
+
+    <TextView
+        android:id="@+id/Identity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="9dp"
+        android:text="Name"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="7dp"
+        android:textColorHint="#000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/milan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="78dp"
+        android:text="Contact"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:id="@+id/UContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="79dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColorHint="#000" />
+
+
+    <TextView
+        android:id="@+id/ghar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/UContact"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="-63dp"
+        android:text="Address"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/UAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ghar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginBottom="3dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColorHint="#000"/>
+
+    <EditText
+        android:id="@+id/work"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="211dp"
+        android:layout_marginEnd="53dp"
+        android:layout_toStartOf="@+id/switch1"
+        android:ems="10"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textwork"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/work"
+        android:layout_alignEnd="@+id/Identity"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="-7dp"
+        android:text="Work"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/btnnavigate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="128dp"
+        android:drawableLeft="@drawable/ic_location_on_black_24dp"
+        android:enabled="false"
+        android:text="@string/navigate"
+        android:textColor="#0000ff"
+        tools:enabled="false"
+        />
+
+    <Button
+        android:id="@+id/btncan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="11dp"
+        android:drawableTop="@drawable/ic_close_black_24dp"
+        android:text="Cancel"
+        android:textColor="#ff0000" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="180dp"
+        android:layout_marginBottom="127dp"
+        android:drawableLeft="@drawable/ic_notifications_active_black_24dp"
+        android:enabled="true"
+        android:text="@string/show_notification"
+        android:textColor="#00ff00"
+        tools:enabled="true"
+        />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Identity"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-3dp"
+        android:layout_marginEnd="32dp"
+        android:checked="true"
+        android:clickable="true"
+        android:text="Active"
+        android:textColor="#000" />
+
+
+
+
+</RelativeLayout>
+

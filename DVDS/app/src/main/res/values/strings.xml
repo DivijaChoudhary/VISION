@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">VISION</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email Id</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign In As User </string>
+    <string name="actin_signin_worker">Sign In As Worker</string>
+    <string name="action_sign_up">Sign Up</string>
+    <string name="action_signinuser">Sign In As User</string>
+    <string name="action_signinworker">Sign In As Worker</string>
+    <string name="action_samesignup">Sign Up</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_show">VISION</string>
+
+
+    <string name="fnameerr">Characters Only</string>
+    <string name="work">Characters Only</string>
+    <string name="emailerr">Invalid Email!!! Hint: alterego@gmail.com</string>
+    <string name="phoneerr">The number is less then 10 digits</string>
+    <string name="pwderr">The password is empty enter 8 character</string>
+    <string name="cpwderr">Password Not Matched</string>
+    <string name="uwaddress">Invalid Address</string>
+    <string name="uwage">Invalid Age</string>
+
+
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string-array name="names">
+        <item>Search</item>
+        <item>Plumber</item>
+        <item>Electrician</item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="sign_in_as_worker">Sign In As WOrker</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="hint">Only For Workers</string>
+
+    <string name="navigate">Navigate</string>
+    <string name="cancle">Cancel</string>
+    <string name="show_notification">Show Notification</string>
+
+    <string name="ramu">Ramu</string>
+    <string name="esp_rs_30">Visiting Charge. - Rs. 30</string>
+    <string name="name">Name</string>
+    <string name="amar">Vishal Kumar</string>
+    <string name="call">Call</string>
+    <string name="todo">TODO</string>
+
+
+    <string name="age">Age</string>
+    <string name="password">Password</string>
+    <string name="address">Address</string>
+    <string name="email_id">Email Id</string>
+    <string name="contact">Contact</string>
+    <string name="worker">Fields</string>
+    <string name="save">Save</string>
+    <string name="title_activity_maps_worker">WorkerMap</string>
+    <string name="about">We, the developers are from Radharaman Engineering College.
+    This application is basically developed for promoting skills of the villegers in various fields.
+We intend to provide them a easy mean to connect digitally to the outer world. We believe that migration rate will slow down
+</string>
+    <string name="radiobutton">English</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="ok">OK</string>
+    <string name="title_activity_user_dtwnav">UserDTWNav</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="ramya_rani">Ramya Rani</string>
+    <string name="rating">Rating</string>
+
+</resources>

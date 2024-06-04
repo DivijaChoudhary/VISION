@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewWorkerDetail"
+    android:background="@drawable/bb">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="93dp"
+        android:layout_height="70dp"
+
+        android:layout_alignTop="@+id/wadd"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="21dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/ic_person_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/Wname"
+        android:layout_width="170dp"
+        android:layout_height="97dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="97dp"
+        android:text="@string/ramya_rani"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/wadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Wname"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-80dp"
+        android:layout_marginEnd="6dp"
+        android:text="9/5 Sanjay Complex"
+        android:textSize="20sp" />
+    <ImageView
+        android:id="@+id/addicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/wadd"
+        android:layout_toStartOf="@+id/wadd"
+        app:srcCompat="@drawable/ic_person_pin_circle_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+
+
+    <TextView
+        android:id="@+id/wid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/wadd"
+        android:layout_alignBottom="@+id/Wname"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="100dp"
+        android:text="91041"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/idicon"
+        android:layout_width="36dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-8dp"
+        app:srcCompat="@drawable/ic_vpn_key_black_24dp"
+        tools:ignore="VectorDrawableCompat"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/esp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="326dp"
+        android:background="@drawable/edit_circle"
+        android:text="ESP.:Rs.30"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textrating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="226dp"
+        android:text="@string/rating"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-21dp"
+        android:layout_marginBottom="196dp"
+        android:clickable="true"
+        android:numStars="5"
+        android:rating="4"
+        android:stepSize="1"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/services"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/ratingBar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="114dp"
+        android:text="Services:-1.Plumber"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/btndeny"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="193dp"
+        android:layout_marginBottom="0dp"
+        android:drawableLeft="@drawable/ic_close_black_24dp"
+        android:text="Deny"
+        android:textColor="#ff0000" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="67dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-19dp"
+        android:layout_marginTop="142dp"
+        android:layout_toEndOf="@+id/Wname"
+        android:background="@drawable/edit_circle"
+        app:srcCompat="@drawable/ic_call_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textrating"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-70dp"
+        android:layout_marginBottom="0dp"
+        android:text="Confirm Booking" />
+
+
+</RelativeLayout>
